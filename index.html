@@ -9,27 +9,25 @@
       }
   </script>
   <style>
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 *, *:before, *:after{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: auto;
-  margin: auto;
+  padding: 0;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
 /*| Navigation |*/
 
 nav{
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: #fff;
-  box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
-  border: 1px solid rgba(0,0,0,.1);
+  position: absolute;
+  top: auto;
+  left: auto;
+  width: auto;
+  background: transparent;
 }
   nav ul{
     list-style: none;
@@ -56,7 +54,7 @@ nav{
       nav ul li a{
         display: block; 
         padding: 30px 20px;
-        color: #222; 
+        color: white; 
         font-size: .9em;
         letter-spacing: 1px;
         text-decoration: none;
@@ -64,7 +62,7 @@ nav{
       }
       nav ul ul{
         display: none;
-        background: #fff;
+        background: transparent;
         position: absolute; 
         top: 100%;
         box-shadow: -3px 3px 10px -2px rgba(0,0,0,.1);
